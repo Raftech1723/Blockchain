@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myValue",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StoreValue.sol": "StoreValue"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StoreValue.sol": {
+			"keccak256": "0x4d3fea77194a977c2e8cb09b66f107d54fa1139b01ee40ccb21bba115508e840",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02794a261beec4627f4568884d073e28920bb5a2952f4bd1dbb98f70c28c43e1",
+				"dweb:/ipfs/QmZXia8AiSq7tQEfGMs5nJ3K6umoEHAT8p6u2gF5s8eyEL"
+			]
+		}
+	},
+	"version": 1
+}
